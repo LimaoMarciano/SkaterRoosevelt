@@ -56,6 +56,7 @@ ModelImporter:
     2300026: Plane
     2300028: Plane.002
     2300030: MainStructure
+    2300032: //RootNode
     3300000: DoubleStairs.001
     3300002: DoubleStairsCollider
     3300004: FrontalRampStair.000
@@ -72,6 +73,7 @@ ModelImporter:
     3300026: Plane
     3300028: Plane.002
     3300030: MainStructure
+    3300032: //RootNode
     4300000: Plane
     4300002: FrontalRampStair.001
     4300004: DoubleStairs.001
