@@ -20,6 +20,33 @@ ModelImporter:
     100028: Plane.002
     100030: //RootNode
     100032: MainStructure
+    100034: Camera
+    100036: ConcreteStairs3x1.000
+    100038: ConcreteStairs3x1.002
+    100040: ConcreteStairs3x1Collider
+    100042: GardenCubeTall
+    100044: GargenCubeTall.003
+    100046: GargenCubeTall.004
+    100048: GrindSteps
+    100050: HalfPipe
+    100052: HalfPipeCollider
+    100054: Light
+    100056: RampZigZag.000
+    100058: RampZigZagCollider
+    100060: RampZigZagUneven.001
+    100062: RampZigZagUneven.002
+    100064: SimpleRailing.001
+    100066: SmallRamp
+    100068: SmallRampCollider
+    100070: StairsConcrete10steps.000
+    100072: StairsConcrete10steps.001
+    100074: StairsConcrete6x3.000
+    100076: StairsConcrete6x3.001
+    100078: StairsConcrete6x3.002
+    100080: StairsConcrete6x3Collider
+    100082: StairsConcrete8x3.000
+    100084: StairsConcrete8x3Collider
+    100086: StairsConcreteRailing.001
     400000: DoubleStairs.001
     400002: DoubleStairsCollider
     400004: FrontalRampStair.000
@@ -37,9 +64,38 @@ ModelImporter:
     400028: Plane.002
     400030: //RootNode
     400032: MainStructure
+    400034: Camera
+    400036: ConcreteStairs3x1.000
+    400038: ConcreteStairs3x1.002
+    400040: ConcreteStairs3x1Collider
+    400042: GardenCubeTall
+    400044: GargenCubeTall.003
+    400046: GargenCubeTall.004
+    400048: GrindSteps
+    400050: HalfPipe
+    400052: HalfPipeCollider
+    400054: Light
+    400056: RampZigZag.000
+    400058: RampZigZagCollider
+    400060: RampZigZagUneven.001
+    400062: RampZigZagUneven.002
+    400064: SimpleRailing.001
+    400066: SmallRamp
+    400068: SmallRampCollider
+    400070: StairsConcrete10steps.000
+    400072: StairsConcrete10steps.001
+    400074: StairsConcrete6x3.000
+    400076: StairsConcrete6x3.001
+    400078: StairsConcrete6x3.002
+    400080: StairsConcrete6x3Collider
+    400082: StairsConcrete8x3.000
+    400084: StairsConcrete8x3Collider
+    400086: StairsConcreteRailing.001
+    2000000: Camera
     2100000: Concrete
     2100002: BluePaint
     2100004: No Name
+    2100006: Metal
     2300000: DoubleStairs.001
     2300002: DoubleStairsCollider
     2300004: FrontalRampStair.000
@@ -57,6 +113,31 @@ ModelImporter:
     2300028: Plane.002
     2300030: MainStructure
     2300032: //RootNode
+    2300034: ConcreteStairs3x1.000
+    2300036: ConcreteStairs3x1.002
+    2300038: ConcreteStairs3x1Collider
+    2300040: GardenCubeTall
+    2300042: GargenCubeTall.003
+    2300044: GargenCubeTall.004
+    2300046: GrindSteps
+    2300048: HalfPipe
+    2300050: HalfPipeCollider
+    2300052: RampZigZag.000
+    2300054: RampZigZagCollider
+    2300056: RampZigZagUneven.001
+    2300058: RampZigZagUneven.002
+    2300060: SimpleRailing.001
+    2300062: SmallRamp
+    2300064: SmallRampCollider
+    2300066: StairsConcrete10steps.000
+    2300068: StairsConcrete10steps.001
+    2300070: StairsConcrete6x3.000
+    2300072: StairsConcrete6x3.001
+    2300074: StairsConcrete6x3.002
+    2300076: StairsConcrete6x3Collider
+    2300078: StairsConcrete8x3.000
+    2300080: StairsConcrete8x3Collider
+    2300082: StairsConcreteRailing.001
     3300000: DoubleStairs.001
     3300002: DoubleStairsCollider
     3300004: FrontalRampStair.000
@@ -74,6 +155,31 @@ ModelImporter:
     3300028: Plane.002
     3300030: MainStructure
     3300032: //RootNode
+    3300034: ConcreteStairs3x1.000
+    3300036: ConcreteStairs3x1.002
+    3300038: ConcreteStairs3x1Collider
+    3300040: GardenCubeTall
+    3300042: GargenCubeTall.003
+    3300044: GargenCubeTall.004
+    3300046: GrindSteps
+    3300048: HalfPipe
+    3300050: HalfPipeCollider
+    3300052: RampZigZag.000
+    3300054: RampZigZagCollider
+    3300056: RampZigZagUneven.001
+    3300058: RampZigZagUneven.002
+    3300060: SimpleRailing.001
+    3300062: SmallRamp
+    3300064: SmallRampCollider
+    3300066: StairsConcrete10steps.000
+    3300068: StairsConcrete10steps.001
+    3300070: StairsConcrete6x3.000
+    3300072: StairsConcrete6x3.001
+    3300074: StairsConcrete6x3.002
+    3300076: StairsConcrete6x3Collider
+    3300078: StairsConcrete8x3.000
+    3300080: StairsConcrete8x3Collider
+    3300082: StairsConcreteRailing.001
     4300000: Plane
     4300002: FrontalRampStair.001
     4300004: DoubleStairs.001
@@ -84,6 +190,26 @@ ModelImporter:
     4300014: DoubleStairsCollider
     4300016: MainStructure
     4300018: FrontalRampStair.000
+    4300020: StairsConcrete6x3.001
+    4300022: GardenCubeTall
+    4300024: HalfPipe
+    4300026: StairsConcreteRailing.001
+    4300028: RampZigZag.000
+    4300030: StairsConcrete8x3.000
+    4300032: ConcreteStairs3x1.002
+    4300034: SmallRamp
+    4300036: StairsConcrete6x3.002
+    4300038: SimpleRailing.001
+    4300040: GrindSteps
+    4300042: StairsConcrete10steps.001
+    4300044: RampZigZagUneven.001
+    4300046: StairsConcrete6x3Collider
+    4300048: SmallRampCollider
+    4300050: StairsConcrete8x3Collider
+    4300052: RampZigZagCollider
+    4300054: ConcreteStairs3x1Collider
+    4300056: HalfPipeCollider
+    10800000: Light
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
