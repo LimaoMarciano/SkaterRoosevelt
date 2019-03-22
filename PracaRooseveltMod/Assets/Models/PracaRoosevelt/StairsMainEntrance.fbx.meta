@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c61f11a0d793de04ca95e584eb143798
+guid: ec3237a529d149c409feb8e926fbff6a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -7,12 +7,9 @@ ModelImporter:
     400000: //RootNode
     2100000: BluePaint
     2100002: Concrete
-    2100004: Grass
     2300000: //RootNode
     3300000: //RootNode
-    4300000: GargenCubeBench.004
-    4300002: GargenCubeBench.001
-    4300004: GardenCubeBench.001
+    4300000: StairsConcrete8x3.001
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -24,11 +21,6 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Concrete
     second: {fileID: 2100000, guid: 9a922e7c92d98d5458e4559d22fc8f42, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Grass
-    second: {fileID: 2100000, guid: 326347e38bdfd0a489ab00dc0dca7cae, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
