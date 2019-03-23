@@ -1,18 +1,22 @@
 fileFormatVersion: 2
-guid: 4df5844e2041dc34c8db880561c3968f
+guid: 7f2fd5e281dee1940a69a678515c00fa
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Concrete
-    2100002: BluePaint
+    2100000: MetalFence
     2300000: //RootNode
     3300000: //RootNode
-    4300000: LateralAcessRampStructureCollider
-  externalObjects: {}
+    4300000: Fence2x1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalFence
+    second: {fileID: 2100000, guid: 53dc41277ea882c4ca24e932552f3c88, type: 2}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -50,7 +54,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
@@ -72,7 +76,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2

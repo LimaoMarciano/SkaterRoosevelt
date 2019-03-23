@@ -1,18 +1,22 @@
 fileFormatVersion: 2
-guid: 4df5844e2041dc34c8db880561c3968f
+guid: 0f3c4ca74e2819542a2bcfba6da85dc2
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Concrete
-    2100002: BluePaint
+    2100000: Metal
     2300000: //RootNode
     3300000: //RootNode
-    4300000: LateralAcessRampStructureCollider
-  externalObjects: {}
+    4300000: DoubleRailingLongLateral
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 3e7b28a94818c3d4aa03eb652587aa1e, type: 2}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -50,7 +54,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
