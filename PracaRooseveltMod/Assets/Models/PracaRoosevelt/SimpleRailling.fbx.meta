@@ -165,6 +165,7 @@ ModelImporter:
     4300036: RampZigZagCollider
     4300038: ConcreteStairs3x1Collider
     4300040: HalfPipeCollider
+    4300042: SimpleRailing
     10800000: Light
     2186277476908879412: ImportLogs
   externalObjects:
