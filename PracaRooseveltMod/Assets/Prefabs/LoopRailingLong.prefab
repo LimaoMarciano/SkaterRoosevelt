@@ -1,50 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &184610827470229060
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5784944471677674272}
-  - component: {fileID: 3148601152940708045}
-  m_Layer: 12
-  m_Name: GrindCollider (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &5784944471677674272
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 184610827470229060}
-  m_LocalRotation: {x: -0, y: -0, z: -0.9742077, w: -0.22565317}
-  m_LocalPosition: {x: 4.4296, y: -1.813, z: -0.11000061}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 976526462063306442}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -206.083}
---- !u!136 &3148601152940708045
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 184610827470229060}
-  m_Material: {fileID: 13400000, guid: f3f0208f5cf9aac4eb4da9e3ba234dc2, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.03
-  m_Height: 0.14951915
-  m_Direction: 1
-  m_Center: {x: -0.00000003072186, y: -0.049333617, z: 0}
 --- !u!1 &681126537854220605
 GameObject:
   m_ObjectHideFlags: 0
@@ -76,7 +31,7 @@ Transform:
   m_Children:
   - {fileID: 102864052501017619}
   - {fileID: 1866357846009450989}
-  - {fileID: 976526462063306442}
+  - {fileID: 5971933047499859321}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -105,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3e7b28a94818c3d4aa03eb652587aa1e, type: 2}
+  - {fileID: 2100000, guid: 53dc41277ea882c4ca24e932552f3c88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -125,7 +80,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1 &2211931079149930317
+--- !u!1 &850641544066239037
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,8 +88,136 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6577883067627428496}
-  - component: {fileID: 1125829453963025405}
+  - component: {fileID: 4007621339875486179}
+  - component: {fileID: 7968855027683816288}
+  m_Layer: 12
+  m_Name: GrindCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4007621339875486179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850641544066239037}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.99571013, y: 0.090501845, z: -0.11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1622151592745265923}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!136 &7968855027683816288
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850641544066239037}
+  m_Material: {fileID: 13400000, guid: f3f0208f5cf9aac4eb4da9e3ba234dc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 4.6078434
+  m_Direction: 1
+  m_Center: {x: -0.0000042547827, y: -1.2789205, z: 0}
+--- !u!1 &1228953015713780624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3876667043430017213}
+  - component: {fileID: 1549762090874126874}
+  m_Layer: 12
+  m_Name: GrindCollider (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3876667043430017213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228953015713780624}
+  m_LocalRotation: {x: -0, y: 0, z: -0.53877103, w: -0.8424522}
+  m_LocalPosition: {x: 4.547, y: 0.095, z: -0.11000061}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1622151592745265923}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -294.8}
+--- !u!136 &1549762090874126874
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228953015713780624}
+  m_Material: {fileID: 13400000, guid: f3f0208f5cf9aac4eb4da9e3ba234dc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.14549024
+  m_Direction: 1
+  m_Center: {x: 0.00000002511016, y: -0.044255134, z: 0}
+--- !u!1 &1237784538273173534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1622151592745265923}
+  m_Layer: 12
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1622151592745265923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237784538273173534}
+  m_LocalRotation: {x: 0, y: 0, z: -0.22325005, w: 0.9747612}
+  m_LocalPosition: {x: -0.057, y: 0.793, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4007621339875486179}
+  - {fileID: 3538435487566254052}
+  - {fileID: 54445364361266568}
+  - {fileID: 9005406094869991221}
+  - {fileID: 4710476400274012360}
+  - {fileID: 3876667043430017213}
+  - {fileID: 9098334116482560236}
+  - {fileID: 3012176298934995534}
+  m_Father: {fileID: 5971933047499859321}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -25.8}
+--- !u!1 &1572352271894088073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3012176298934995534}
+  - component: {fileID: 9185163442187851227}
   m_Layer: 12
   m_Name: GrindCollider (7)
   m_TagString: Untagged
@@ -142,35 +225,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!4 &6577883067627428496
+--- !u!4 &3012176298934995534
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2211931079149930317}
-  m_LocalRotation: {x: -0, y: -0, z: -0.76020277, w: -0.6496859}
-  m_LocalPosition: {x: 4.3446, y: -1.826, z: -0.11000061}
-  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
+  m_GameObject: {fileID: 1572352271894088073}
+  m_LocalRotation: {x: -0, y: 0, z: -0.8644066, w: -0.50279355}
+  m_LocalPosition: {x: 4.544, y: -0.088, z: -0.11000061}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 976526462063306442}
+  m_Father: {fileID: 1622151592745265923}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -261.036}
---- !u!136 &1125829453963025405
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -240.37}
+--- !u!136 &9185163442187851227
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2211931079149930317}
+  m_GameObject: {fileID: 1572352271894088073}
   m_Material: {fileID: 13400000, guid: f3f0208f5cf9aac4eb4da9e3ba234dc2, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.03
-  m_Height: 0.13972919
+  m_Height: 0.15131253
   m_Direction: 1
-  m_Center: {x: -0.000000080170516, y: -0.045732453, z: 0}
---- !u!1 &4948665544077206683
+  m_Center: {x: -0.000000080304915, y: -0.051388733, z: 0}
+--- !u!1 &2277690133826345914
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -178,44 +261,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8253142005340706109}
-  - component: {fileID: 7509947017118239653}
+  - component: {fileID: 3538435487566254052}
+  - component: {fileID: 6415004920555049005}
   m_Layer: 12
-  m_Name: GrindCollider (2)
+  m_Name: GrindCollider (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!4 &8253142005340706109
+--- !u!4 &3538435487566254052
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4948665544077206683}
-  m_LocalRotation: {x: -0, y: -0, z: 0.26037708, w: 0.96550703}
-  m_LocalPosition: {x: -0.152, y: 0.82, z: -0.11000061}
+  m_GameObject: {fileID: 2277690133826345914}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.996, y: -0.086, z: -0.11000061}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 976526462063306442}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30.185001}
---- !u!136 &7509947017118239653
+  m_Father: {fileID: 1622151592745265923}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!136 &6415004920555049005
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4948665544077206683}
+  m_GameObject: {fileID: 2277690133826345914}
   m_Material: {fileID: 13400000, guid: f3f0208f5cf9aac4eb4da9e3ba234dc2, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.03
-  m_Height: 0.12413185
+  m_Height: 4.6072335
   m_Direction: 1
-  m_Center: {x: -0.00000008024495, y: -0.03793386, z: 0}
---- !u!1 &4987499119014423393
+  m_Center: {x: -0.0000057108396, y: -1.2786103, z: 0}
+--- !u!1 &3868529631951704595
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -223,8 +306,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1864320816704688760}
-  - component: {fileID: 5154345615152805685}
+  - component: {fileID: 4710476400274012360}
+  - component: {fileID: 8821583814828279721}
   m_Layer: 12
   m_Name: GrindCollider (4)
   m_TagString: Untagged
@@ -232,27 +315,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!4 &1864320816704688760
+--- !u!4 &4710476400274012360
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4987499119014423393}
-  m_LocalRotation: {x: -0, y: -0, z: -0.675289, w: 0.73755324}
-  m_LocalPosition: {x: -0.0185, y: 0.9082, z: -0.11000061}
+  m_GameObject: {fileID: 3868529631951704595}
+  m_LocalRotation: {x: -0, y: -0, z: -0.46138626, w: 0.8871994}
+  m_LocalPosition: {x: 0.0024933517, y: 0.09580386, z: -0.11000061}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 976526462063306442}
+  m_Father: {fileID: 1622151592745265923}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -84.953}
---- !u!136 &5154345615152805685
+--- !u!136 &8821583814828279721
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4987499119014423393}
+  m_GameObject: {fileID: 3868529631951704595}
   m_Material: {fileID: 13400000, guid: f3f0208f5cf9aac4eb4da9e3ba234dc2, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -260,6 +343,37 @@ CapsuleCollider:
   m_Height: 0.13972919
   m_Direction: 1
   m_Center: {x: -0.000000080170516, y: -0.045732453, z: 0}
+--- !u!1 &3998375487942923951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5971933047499859321}
+  m_Layer: 12
+  m_Name: GrindableColliders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &5971933047499859321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3998375487942923951}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1622151592745265923}
+  m_Father: {fileID: 525955548}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5381992208577598031
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,7 +399,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5381992208577598031}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.2062, y: -2.291, z: 0}
+  m_LocalPosition: {x: 3.977, y: -1.518, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 525955548}
@@ -305,7 +419,7 @@ CapsuleCollider:
   m_Height: 1.0122576
   m_Direction: 1
   m_Center: {x: 0, y: -0.04612875, z: 0}
---- !u!1 &5932609152618863607
+--- !u!1 &6593783976765967852
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -313,36 +427,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8483391369652974045}
-  - component: {fileID: 181124707312276466}
+  - component: {fileID: 54445364361266568}
+  - component: {fileID: 8008513089681913628}
   m_Layer: 12
-  m_Name: GrindCollider (5)
+  m_Name: GrindCollider (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!4 &8483391369652974045
+--- !u!4 &54445364361266568
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5932609152618863607}
-  m_LocalRotation: {x: -0, y: -0, z: -0.9560433, w: 0.2932257}
-  m_LocalPosition: {x: 4.4716, y: -1.729, z: -0.11000061}
+  m_GameObject: {fileID: 6593783976765967852}
+  m_LocalRotation: {x: -0, y: -0, z: 0.50139654, w: 0.8652177}
+  m_LocalPosition: {x: -0.06902102, y: -0.047329605, z: -0.11000061}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 976526462063306442}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -145.89801}
---- !u!136 &181124707312276466
+  m_Father: {fileID: 1622151592745265923}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30.185001}
+--- !u!136 &8008513089681913628
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5932609152618863607}
+  m_GameObject: {fileID: 6593783976765967852}
   m_Material: {fileID: 13400000, guid: f3f0208f5cf9aac4eb4da9e3ba234dc2, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -350,7 +464,7 @@ CapsuleCollider:
   m_Height: 0.12413185
   m_Direction: 1
   m_Center: {x: -0.00000008024495, y: -0.03793386, z: 0}
---- !u!1 &6287025375098222655
+--- !u!1 &7650087089459633829
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -358,44 +472,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2882253155949267194}
-  - component: {fileID: 3319053682289654019}
+  - component: {fileID: 9005406094869991221}
+  - component: {fileID: 5783849775466978849}
   m_Layer: 12
-  m_Name: GrindCollider
+  m_Name: GrindCollider (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!4 &2882253155949267194
+--- !u!4 &9005406094869991221
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6287025375098222655}
-  m_LocalRotation: {x: 0, y: 0, z: 0.5, w: 0.8660254}
-  m_LocalPosition: {x: 0.839, y: 0.407, z: -0.11}
+  m_GameObject: {fileID: 7650087089459633829}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.06795183, y: 0.046818495, z: -0.11000061}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 976526462063306442}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 60}
---- !u!136 &3319053682289654019
+  m_Father: {fileID: 1622151592745265923}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -30}
+--- !u!136 &5783849775466978849
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6287025375098222655}
+  m_GameObject: {fileID: 7650087089459633829}
   m_Material: {fileID: 13400000, guid: f3f0208f5cf9aac4eb4da9e3ba234dc2, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.03
-  m_Height: 5.198258
+  m_Height: 0.14951915
   m_Direction: 1
-  m_Center: {x: -0.000007941049, y: -1.5741148, z: 0}
---- !u!1 &6940152513180241262
+  m_Center: {x: -0.00000003072186, y: -0.049333617, z: 0}
+--- !u!1 &8139881965944454374
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -403,36 +517,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 976526462063306442}
+  - component: {fileID: 9098334116482560236}
+  - component: {fileID: 4732589910270464173}
   m_Layer: 12
-  m_Name: GrindableColliders
+  m_Name: GrindCollider (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!4 &976526462063306442
+--- !u!4 &9098334116482560236
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6940152513180241262}
-  m_LocalRotation: {x: 0, y: 0, z: -0.025304608, w: 0.9996798}
-  m_LocalPosition: {x: -0.039, y: -0, z: 0}
+  m_GameObject: {fileID: 8139881965944454374}
+  m_LocalRotation: {x: 0, y: 0, z: -0.9999774, w: 0.0067195417}
+  m_LocalPosition: {x: 4.628, y: -0.045, z: -0.11000061}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2882253155949267194}
-  - {fileID: 1079151306198008088}
-  - {fileID: 8253142005340706109}
-  - {fileID: 2288828555875317327}
-  - {fileID: 1864320816704688760}
-  - {fileID: 8483391369652974045}
-  - {fileID: 5784944471677674272}
-  - {fileID: 6577883067627428496}
-  m_Father: {fileID: 525955548}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.9}
+  m_Children: []
+  m_Father: {fileID: 1622151592745265923}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -179.23}
+--- !u!136 &4732589910270464173
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8139881965944454374}
+  m_Material: {fileID: 13400000, guid: f3f0208f5cf9aac4eb4da9e3ba234dc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.15773828
+  m_Direction: 1
+  m_Center: {x: -0.0000006665723, y: -0.054151125, z: 0}
 --- !u!1 &8243982367505499881
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,7 +579,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8243982367505499881}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.431, z: 0}
+  m_LocalPosition: {x: 0, y: 0.449, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 525955548}
@@ -475,96 +596,6 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.02
-  m_Height: 0.92
+  m_Height: 0.9566634
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &8249140455586438692
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1079151306198008088}
-  - component: {fileID: 2064492604913244440}
-  m_Layer: 12
-  m_Name: GrindCollider (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &1079151306198008088
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8249140455586438692}
-  m_LocalRotation: {x: -0, y: -0, z: 0.5, w: 0.8660254}
-  m_LocalPosition: {x: 0.751, y: 0.254, z: -0.11000061}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 976526462063306442}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 60}
---- !u!136 &2064492604913244440
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8249140455586438692}
-  m_Material: {fileID: 13400000, guid: f3f0208f5cf9aac4eb4da9e3ba234dc2, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.03
-  m_Height: 5.202785
-  m_Direction: 1
-  m_Center: {x: -0.0000068374366, y: -1.5763841, z: 0}
---- !u!1 &8611683508376478390
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2288828555875317327}
-  - component: {fileID: 76636200002952625}
-  m_Layer: 12
-  m_Name: GrindCollider (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &2288828555875317327
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8611683508376478390}
-  m_LocalRotation: {x: 0, y: 0, z: -0.258819, w: 0.9659259}
-  m_LocalPosition: {x: -0.104, y: 0.901, z: -0.11000061}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 976526462063306442}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -30}
---- !u!136 &76636200002952625
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8611683508376478390}
-  m_Material: {fileID: 13400000, guid: f3f0208f5cf9aac4eb4da9e3ba234dc2, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.03
-  m_Height: 0.14951915
-  m_Direction: 1
-  m_Center: {x: -0.00000003072186, y: -0.049333617, z: 0}
+  m_Center: {x: 0, y: -0.018331707, z: 0}
