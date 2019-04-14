@@ -1,29 +1,34 @@
 fileFormatVersion: 2
-guid: 6e64c6f92918ce04985701d22e6edc46
+guid: 96913515f3010b145b0c661177d2f27b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Tree_1
     400000: //RootNode
-    2100000: Concrete
-    2100002: BluePaint
+    400002: Tree_1
+    2100000: bark01
+    2100002: spruce leaf
     2300000: //RootNode
+    2300002: Tree_1
     3300000: //RootNode
-    4300000: RampZigZagFloor01
+    3300002: Tree_1
+    4300000: Tree_0
+    4300002: Tree_1
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: BluePaint
-    second: {fileID: 2100000, guid: ae0beb372daf81f4ba02bee1d4d8de62, type: 2}
+      name: bark01
+    second: {fileID: 2100000, guid: a1f55b927884a8d41a985a8f6adc2c25, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Concrete
-    second: {fileID: 2100000, guid: 9a922e7c92d98d5458e4559d22fc8f42, type: 2}
+      name: spruce leaf
+    second: {fileID: 2100000, guid: 3ad54434e21e030459838deb0fa9841b, type: 2}
   materials:
     importMaterials: 1
-    materialName: 1
+    materialName: 0
     materialSearch: 1
     materialLocation: 1
   animations:
@@ -60,7 +65,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
